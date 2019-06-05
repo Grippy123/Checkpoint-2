@@ -1,0 +1,8 @@
+var  Checkpoint2commands= {
+    clickBox: function (Check, Filter, Add) {
+        this.api.useXpath()
+        this.click(`//li[text()="${Check, Filter, Add}"]`)
+        this.api.useCss()
+        return this
+    },
+}
